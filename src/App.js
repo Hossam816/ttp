@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component } from "react";
+import "../styles/NavbarStyles.css";
+import { MenuItems } from "./MenuItems";
+import { Link } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class Navbar extends Component {
+  render() {
+    return (
+      <nav className="navbar-items">
+        <h1 className="navbar-logo">Trippy</h1>
+        <ul className="nav-menu">
+          <li>
+            <Link>
+              <i class="fa-solid fa-house-user"></i>Home
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    );
+  }
 }
-
-export default App;
+export default Navbar;
