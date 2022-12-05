@@ -3,7 +3,7 @@ import React from 'react'
 function Service() {
     return (
         <>
-            Service
+            <h1>Service</h1>
         </>
     )
 }

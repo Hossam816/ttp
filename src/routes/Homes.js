@@ -1,9 +1,11 @@
-function Home () {
+import React from 'react'
+
+function Homes() {
     return (
         <>
-            Home
+            <h1>Home</h1>
         </>
     )
 }
 
-export default Home
+export default Homes
