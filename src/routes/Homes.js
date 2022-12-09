@@ -1,4 +1,5 @@
 import React from 'react'
+import Destination from '../components/Destination';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar'
 function Homes() {
@@ -14,6 +15,7 @@ function Homes() {
                 url="/"
                 btnClass="btn btn-outline-dark btn-show"
             />
+            <Destination />
         </>
     )
 }
