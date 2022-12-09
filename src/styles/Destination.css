@@ -12,6 +12,14 @@
     justify-content: space-between;
     margin-top: 4.5rem;
 }
+
+.destination .first-des-revers {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
 .des-text {
     width: 45%;
     text-align: start;
@@ -51,6 +59,11 @@
         align-items: center;
         justify-content: space-between;
         margin-top: 2.5rem !important;
+    }
+    .destination .first-des-revers {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4.5rem;
     }
     .des-text {
         margin-top: 1.5rem;
