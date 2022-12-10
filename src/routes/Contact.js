@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import AboutImg from '../assets/pexels-johannes-plenio-1437604.jpg'
+import Footer from '../components/Footer';
 function Contact() {
     return (
         <>
@@ -13,6 +14,7 @@ function Contact() {
 
                 btnClass="btn-hide"
             />
+            <Footer />
         </>
     )
 }
