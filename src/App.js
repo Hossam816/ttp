@@ -5,6 +5,7 @@ import Contact from './routes/Contact';
 import About from './routes/About';
 import Service from './routes/Service';
 import Homes from './routes/Homes';
+import SignUp from './routes/SignUp';
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path='/signup' element={<SignUp />}/>
       </Routes>
     </div>
   )

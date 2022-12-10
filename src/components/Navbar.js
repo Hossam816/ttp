@@ -29,7 +29,7 @@ class Navbar extends Component {
                         </li>
                     )
                 })}
-                <button className="btn-sign btn btn-outline-secondary">Sign Up</button>
+                <Link to={'/SignUp'}><button className="btn-sign btn btn-outline-secondary" role="link">Sign Up</button></Link>
             </ul>
 
         </nav>

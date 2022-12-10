@@ -1,0 +1,133 @@
+.signup-container{
+    background-image: url('../assets/pexels-mali-maeder-1278952.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+.form-container {
+    padding: 8rem 1.5rem;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.form-container form div:not(.Names-input) {
+    width: 70%;
+}
+.form-container form input{
+    width: 100%;
+}
+.form-container form label, h3{
+    display: block;
+    text-align: start;
+    color: #fff;
+    font-weight: 600;
+}
+
+.form-container form .Names-input {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 70%;
+}
+.form-container form .Names-input input {
+    width: 100%;
+    margin-top: .5rem;
+}
+.email-input {
+    position: relative;
+}
+.email-input i {
+    position: absolute;
+    top: 43%;
+    left: 3%;
+    z-index: 999;
+}
+.email-input input {
+    position: relative;
+    padding: .9rem 2.5rem;
+}
+
+.telephone-input {
+    position: relative;
+}
+.telephone-input i {
+    position: absolute;
+    top: 43%;
+    left: 3%;
+    z-index: 999;
+}
+.telephone-input input {
+    position: relative;
+    padding: .9rem 2.5rem;
+}
+
+.adress-input {
+    position: relative;
+}
+.adress-input i {
+    position: absolute;
+    top: 43%;
+    left: 3%;
+    z-index: 999;
+}
+.adress-input input {
+    position: relative;
+    padding: .9rem 2.5rem;
+}
+
+.date-input {
+    position: relative;
+}
+.date-input i {
+    position: absolute;
+    top: 43%;
+    left: 3%;
+    z-index: 999;
+}
+.date-input input {
+    position: relative;
+    padding: .9rem 2.5rem;
+}
+
+.about-radio > div {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #fff;
+    border-radius: 6px;
+    margin: .5rem 0;
+    padding: 0 .5rem;
+}
+.about-radio > div > label {
+    color: #000;
+}
+
+.about-radio > div > input {
+    width: 20px;
+    height: 20px;
+}
+
+.check-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 1.5rem;
+}
+.check-container input[type="checkbox"] {
+    width: auto;
+    font-size: 1.5rem;
+    color: rgb(56, 88, 175);
+}

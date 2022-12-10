@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import AboutImg from '../assets/pexels-johannes-plenio-1437604.jpg'
 import Footer from '../components/Footer';
+import ContactForm from '../components/ContactForm';
 function Contact() {
     return (
         <>
@@ -14,6 +15,7 @@ function Contact() {
 
                 btnClass="btn-hide"
             />
+            <ContactForm />
             <Footer />
         </>
     )
