@@ -18,9 +18,10 @@
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
+    width: 100%;
 }
-.form-container form div:not(.Names-input) {
-    width: 70%;
+.form-container form div {
+    width: 100%;
 }
 .form-container form input{
     width: 100%;
@@ -130,4 +131,13 @@
     width: auto;
     font-size: 1.5rem;
     color: rgb(56, 88, 175);
+}
+
+@media screen and (max-width: 850px) {
+    .form-container form div{
+        width: 100% !important;
+    } 
+    .form-container form .Names-input {
+        flex-direction: column !important;
+    }
 }
